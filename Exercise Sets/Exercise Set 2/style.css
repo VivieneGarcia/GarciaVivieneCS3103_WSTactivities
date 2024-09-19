@@ -1,0 +1,27 @@
+
+body {
+  font-family: 'DotGothic16', sans-serif;
+  height:100vh;
+  display:flex;
+  justify-content: center; 
+  align-items: center; 
+  background-color: #428369;
+}
+.container{
+  display:flex;
+}
+.box{
+  text-align: center;
+  padding: 1rem;
+  margin: 1rem;
+  height: 50vh;
+  width: 35vh;
+  font-size: 2.3vh;
+  border-radius: 7px;
+  background-color: rgb(235, 230, 219);
+  box-shadow: 12px 20px 2px rgba(4, 8, 13, 0.685);
+}
+
+.emoji {
+  font-size:7vh
+}
