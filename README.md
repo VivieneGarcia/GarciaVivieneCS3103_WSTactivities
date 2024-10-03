@@ -8,7 +8,7 @@
 </p>
 
 
-##  🕸️ Acknowledgments
+##  🕸️ Acknowledgment
 [Ma'am Fatima](https://github.com/marieemoiselle) - Web Systems and Technologies Prof
 
 
