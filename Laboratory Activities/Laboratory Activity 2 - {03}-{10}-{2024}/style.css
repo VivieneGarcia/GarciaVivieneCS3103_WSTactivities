@@ -11,10 +11,15 @@ body {
 }
 
 h1 {
-  font-size: 8vh;
-  color: rgb(17, 48, 48);
+  font-size: 6vh;
+  color: rgb(0, 0, 0);
   margin: 0px 0 6px 0;
   justify-content: center;
+}
+
+h1:hover {
+  transform: rotate(-1deg) scale(1.09);
+  color:rgba(3, 67, 51, 0.943);
 }
 
 .container {
@@ -27,7 +32,6 @@ h1 {
   border: 4px solid rgb(0, 0, 0); 
   flex-direction: column;
   padding: 1vh 1% 0px 1%
-
 }
 
 .daily-container{
@@ -40,8 +44,12 @@ h1 {
   border-radius: 10px;
   box-shadow: 5px 5px 4px rgba(6, 12, 42, 0.607);
   border: 4px solid rgb(0, 0, 0); 
-
 }
+
+.daily-container:hover {
+  transform: rotate(3deg) scale(1.09);
+}
+
 
 .daily-container h2{
   font-size: 5vh;
@@ -55,16 +63,18 @@ h1 {
   margin-top: 20px;
   justify-content: center;
   flex-wrap:wrap;
-
 }
 
 .picture-container img {
   width: 120px;
   height: 120px;
-
   border-radius: 6px;
   box-shadow: 5px 3px 2px rgba(5, 9, 29, 0.751);
   border: 3px solid rgb(0, 0, 0); 
+}
+.picture-container img:hover {
+  transform: rotate(-3deg);
+  box-shadow: 7px 5px 4px rgba(5, 9, 29, 0.9); 
 }
 
 .last-container{
@@ -80,17 +90,23 @@ h1 {
   display: flex;
 }
 
-.song-box{
+.song-box {
   background-color: rgb(39, 77, 83);
-  padding:1vh;
+  padding: 1vh;
   width: 100%;
   display: flex;
   border-radius: 4px;
   box-shadow: 5px 5px 4px rgba(5, 9, 29, 0.751);
-  border: 4px solid rgb(0, 0, 0); 
+  border: 4px solid rgb(0, 0, 0);
   margin: 5px;
   flex-direction: column;
   align-items: center;
+}
+
+.song-box:hover {
+  background-color: rgb(9, 60, 60); 
+  transform: scale(1.05);
+  box-shadow: 7px 7px 6px rgba(5, 9, 29, 0.9);
 }
 
 .song-box h2{
@@ -133,7 +149,9 @@ h1 {
   box-shadow: 5px 5px 4px rgba(6, 12, 42, 0.607);
   border: 4px solid rgb(0, 0, 0); 
 }
-
+.bucket-title:hover {
+  transform: rotate(3deg);
+}
 .bucketlist{
   background-color: rgb(222, 204, 168);
   border-radius: 10px;
@@ -144,7 +162,9 @@ h1 {
   margin-bottom: 10px;
   height: auto;
 }
-
+.bucketlist:hover {
+  transform: rotate(2deg) scale(1.3);
+}
 .bucketlist h2{
   font-size: 5vh;
   margin: 0;
@@ -161,5 +181,9 @@ h1 {
   width: 70px;
   height: 200px;
   align-self: center;
+}
+.random-image:hover {
+  transform: rotate(5deg) scale(1.5);
+
 }
 
