@@ -1,4 +1,4 @@
-# 🕸️ Web Systems and Technologies 
+# 🕸️ IT314: Web Systems and Technologies 
  Exercises and Laboratory Activities
 ## 📸 Pics
 <p align="center">
