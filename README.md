@@ -14,6 +14,11 @@
  <br>
   <em>Laboratory 2: CSS Flexbox</em>
   <br><br>
+  <img src="https://github.com/VivieneGarcia/GarciaVivieneCS3103_WSTactivities/blob/main/Laboratory%20Activities/Laboratory%20Activity%203%20-%20%7B19%7D-%7B11%7D-%7B2024%7D/word-sentence-ctr-output.png" \ alt="Lab 3" width="70%">
+ <br>
+  <em>Laboratory 3: Javascript (String Methods and Array Filtering)</em>
+  <br><br>
+ 
 </p>
 
 
