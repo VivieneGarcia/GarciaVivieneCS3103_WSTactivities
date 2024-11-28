@@ -12,7 +12,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const creditsBtn = document.getElementById('credits-button');
   const modal = document.getElementById('credits-modal');
-  const closeModal = document.querySelector('.close');
 
   const dingSound = new Audio('assets/normal.wav');
   const rejectSound = new Audio('assets/error.mp3');
@@ -24,16 +23,27 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const originalContent = container.innerHTML;
 
+  const body = document.body;
+
+  function changeBackground(imagePath) {
+    playDingSound();
+    body.style.backgroundImage = `url('${imagePath}')`;
+  }
+
+  document.getElementById('blue').addEventListener('click', () => {changeBackground('assets/blue_background.png'); });
+  document.getElementById('black').addEventListener('click', () => {changeBackground('assets/black_background.png'); });
+  document.getElementById('pink').addEventListener('click', () => {changeBackground('assets/pink_background.png'); });
+  document.getElementById('dirt').addEventListener('click', () => {changeBackground('assets/dirt_background.png'); });
+  document.getElementById('green').addEventListener('click', () => {changeBackground('assets/green_background.png');});
+
   creditsBtn.addEventListener('click', () => {
-    modal.style.display = 'block';
     playChingSound();
+    if (modal.style.display === 'block') {
+      modal.style.display = 'none';
+    } else {
+      modal.style.display = 'block';
+    }
   });
-
-  closeModal.addEventListener('click', () => {
-    modal.style.display = 'none';
-    playChingSound();  
-  });
-
   window.addEventListener('click', (event) => {
     if (event.target === modal) {
       modal.style.display = 'none';
