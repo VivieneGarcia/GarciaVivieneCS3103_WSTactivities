@@ -18,11 +18,21 @@
  <br>
   <em>Laboratory 3: Javascript (String Methods and Array Filtering)</em>
   <br><br>
- 
+  <video width="70%" controls>
+   <source src="https://github.com/user-attachments/assets/6cf39f89-44b3-4858-ae3e-7ff1008862dd" type="video/mp4">
+   Your browser does not support the video tag.
+  </video>
 </p>
 
+https://github.com/user-attachments/assets/6cf39f89-44b3-4858-ae3e-7ff1008862dd
 
-##  🕸️ Acknowledgmenta
+<p align="center"> 
+ <br>
+  <em>Laboratory 4: Glow-up of Exercise Set 2 (Animations,Interaction, & Sound)</em>
+  <br><br>
+</p>
+
+##  🕸️ Acknowledgment
 [Ma'am Fatima](https://github.com/marieemoiselle) - Web Systems and Technologies Prof
 
 
