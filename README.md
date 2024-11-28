@@ -14,14 +14,14 @@
  <br>
   <em>Laboratory 2: CSS Flexbox</em>
   <br><br>
-  <img src="https://github.com/VivieneGarcia/GarciaVivieneCS3103_WSTactivities/blob/main/Laboratory%20Activities/Laboratory%20Activity%203%20-%20%7B19%7D-%7B11%7D-%7B2024%7D/word-sentence-ctr-output.png" \ alt="Lab 3" width="70%">
+</p>
+
+https://github.com/user-attachments/assets/801e155a-882c-4486-846a-eb98fbd8df63
+
+<p align="center"> 
  <br>
   <em>Laboratory 3: Javascript (String Methods and Array Filtering)</em>
   <br><br>
-  <video width="70%" controls>
-   <source src="https://github.com/user-attachments/assets/6cf39f89-44b3-4858-ae3e-7ff1008862dd" type="video/mp4">
-   Your browser does not support the video tag.
-  </video>
 </p>
 
 https://github.com/user-attachments/assets/8105f37d-71e5-4c7a-90ea-76aca5b5752e
