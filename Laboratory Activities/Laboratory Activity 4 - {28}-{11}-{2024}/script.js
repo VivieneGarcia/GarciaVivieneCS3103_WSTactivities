@@ -206,7 +206,7 @@ document.addEventListener('DOMContentLoaded', () => {
       console.log(`Decremented age: ${yearsOld}`); 
 
       if (yearsOld === 0) {
-        yearsOldText.textContent = 'VIVS CARDS';
+        yearsOldText.textContent = 'VIVS\' CARDS';
       } else if (yearsOld === 1) {
         yearsOldText.textContent = `${yearsOld} year old`;
       } else {
