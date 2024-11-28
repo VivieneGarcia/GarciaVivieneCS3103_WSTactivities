@@ -24,11 +24,11 @@
   </video>
 </p>
 
-https://github.com/user-attachments/assets/6cf39f89-44b3-4858-ae3e-7ff1008862dd
+https://github.com/user-attachments/assets/8105f37d-71e5-4c7a-90ea-76aca5b5752e
 
 <p align="center"> 
  <br>
-  <em>Laboratory 4: Glow-up of Exercise Set 2 (Animations,Interaction, & Sound)</em>
+  <em>Laboratory 4: Glow-up of Exercise Set 2 (Animations,Interaction, & Sounds)</em>
   <br><br>
 </p>
 
