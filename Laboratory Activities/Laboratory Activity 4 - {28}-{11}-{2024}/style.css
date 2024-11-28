@@ -45,12 +45,21 @@ p{
   height: 10vh;
   width: auto;
 }
+.settings-container{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  gap:20px;
+  margin-top: 10px;
+  width: 60%;
+  margin-bottom: 15px;
+}
 
 .button-container {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 10px;
   width: 60%;
   margin-bottom: 15px;
 }
@@ -70,7 +79,7 @@ p{
   font-family: 'Balatro', sans-serif; 
   font-size: 3rem;
   padding: 5px 25px; 
-  border: 4px solid #2a5b3d;
+  border: 0px solid #0a1c11;
   border-radius: 8px;
   cursor: pointer;
   margin-right: 12px;
@@ -170,30 +179,20 @@ p{
 }
 
 .music-toggle-btn {
-  position: fixed;
-  top: 20px;
-  left: 20px;
   background-color: rgba(0, 0, 0, 0);
   border: none;
   cursor: pointer;
-  z-index: 1000;
+
 }
 
 .home-button{
-  position: fixed;
-  top: 25px;
-  left: 90px;
   background-color: rgba(0, 0, 0, 0);
   border: none;
   cursor: pointer;
-  z-index: 1000;
   transition: transform 0.1s ease; 
 }
 
 #credits-button{
-  position: fixed;
-  top: 20px;
-  right: 20px;
   background-color: rgba(0, 0, 0, 0);
   border: none;
   cursor: pointer;
@@ -205,8 +204,43 @@ p{
   transform: scale(1.1) rotate(-45deg);
 }
 
-.music-toggle-btn:hover, .credits-button:hover  {
+.music-toggle-btn:hover, #credits-button:hover  {
   transform: scale(1.2);
+}
+
+.color-button {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  z-index: 1000;
+  border-radius: 7px;
+  border: 0px black;
+  box-shadow: 2px 2px 2px rgba(4, 8, 13, 0.685);
+  transition: transform 0.1s ease; 
+  color: rgb(235, 230, 219);
+  font-family: 'Balatro', sans-serif; 
+  font-size: 2rem;
+  
+}
+.color-button:hover{
+  transform:scale(1.1)
+}
+#green {
+  background-color: #428369;
+}
+
+#blue {
+  background-color: #426783;
+
+}
+#pink {
+  background-color: #964567;
+}
+#black {
+  background-color: #232323;
+}
+#dirt {
+  background-color: #886C56;
 }
 
 @keyframes shake {
@@ -253,15 +287,14 @@ p{
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.881);
+  background-color: rgba(4, 33, 35, 0.968);
   color:rgb(235, 230, 219);
-  text-align: center;
-  padding: 20px; 
+  padding: 40px; 
   overflow: auto; 
 }
 
 .close {
-  color: #aaa;
+  color: rgb(235, 230, 219);
   font-size: 60px;
   font-weight: bold;
   cursor: pointer;
@@ -272,17 +305,18 @@ p{
   cursor: pointer;
 }
 
-.modal h2 {
-  margin-top:0;
-  font-size: 4rem;
-}
 .modal h3{
   font-size: 2rem;
+  margin-top: 5rem;
 }
-
+.modal p{
+  font-size:1.2rem;
+  
+}
 a {
-  color: #428369;
+  color: rgb(235, 230, 219);
   text-decoration: none;
+  text-decoration: underline;
 }
 
 a:hover {
@@ -298,5 +332,8 @@ a:hover {
     width: fit-content;
     height:fit-content;
     font-size: 6rem;
+  }
+  .modal p{
+    font-size:0.69rem;
   }
 }
